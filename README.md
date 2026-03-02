@@ -27,7 +27,7 @@ Built with **FastAPI · LangChain · ChromaDB · SentenceTransformers · Gradio*
 ![Document Upload](pdf_to_test/images/Screenshot%20(97).png)
 
 ### 2. Intelligent Q&A
-![Chat Interface](pdf_to_test/images/Screenshot%20(100).png)
+![Chat Interface](pdf_to_test/images/Screenshot%20(99).png)
 
 ### 3. Automatic Document Summarization
 ![Document Summary](pdf_to_test/images/Screenshot%20(103).png)
