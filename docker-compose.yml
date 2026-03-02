@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  docbot-system:
+    build: .
+    container_name: docbot-assistant
+    ports:
+      - "7860:7860" # Gradio UI
+      - "8000:8000" # FastAPI Backend
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - GRADIO_SERVER_NAME=0.0.0.0
+      - BACKEND_URL=http://127.0.0.1:8000
+    volumes:
+      - .:/app
+    restart: unless-stopped
